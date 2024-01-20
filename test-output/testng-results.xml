@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T10:44:56 IST" name="Default suite" finished-at="2024-01-19T10:45:04 IST" duration-ms="8805">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T10:44:56 IST" name="Default test" finished-at="2024-01-19T10:45:04 IST" duration-ms="8805">
+      <class name="api.test.UserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTest@a38c7fe]" started-at="2024-01-19T10:44:56 IST" name="setup" finished-at="2024-01-19T10:44:56 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTest@a38c7fe]" started-at="2024-01-19T10:44:56 IST" name="testPostUser" finished-at="2024-01-19T10:45:00 IST" duration-ms="3527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="getUser()[pri:2, instance:api.test.UserTest@a38c7fe]" started-at="2024-01-19T10:45:00 IST" name="getUser" finished-at="2024-01-19T10:45:01 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="UpdateUserByUsername()[pri:3, instance:api.test.UserTest@a38c7fe]" started-at="2024-01-19T10:45:01 IST" name="UpdateUserByUsername" finished-at="2024-01-19T10:45:03 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserByUsername -->
+        <test-method signature="DeleteByUsername()[pri:4, instance:api.test.UserTest@a38c7fe]" started-at="2024-01-19T10:45:03 IST" name="DeleteByUsername" finished-at="2024-01-19T10:45:04 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteByUsername -->
+      </class> <!-- api.test.UserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
